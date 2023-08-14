@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Percentage Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-200 mt-14 mb-8">
+    <main class="bg-slate-950 w-11/12 lg:w-1/5 mx-auto rounded-3xl py-4">
+      <span class="block bg-white w-1/2 mx-auto rounded-3xl text-white"
+        >hello</span
+      >
+      <section class="bg-gray-300 w-11/12 mx-auto mb-8">
+        <h1 class="text-2xl text-center mt-8 text-black py-4 font-medium">
+          Percentage Calculator
+        </h1>
+        <div class="ps-6 py-8">
+          <div class="mb-4">
+            <h2 class="font-medium">Amount:</h2>
+            <input
+              id="amount"
+              class="w-4/5 py-2 px-4 rounded shadow-lg shadow-gray-500/50"
+              type="text"
+            />
+          </div>
+          <div class="mb-4">
+            <h2 class="font-medium">Percentage (%):</h2>
+            <input
+              id="percentage"
+              class="w-4/5 py-2 px-4 rounded shadow-lg shadow-gray-500/50"
+              type="text"
+            />
+          </div>
+          <div class="mb-4">
+            <h2 class="font-medium">Apply cupon get 45% discount:</h2>
+            <input
+              id="cupon-code"
+              class="w-4/5 py-2 px-4 rounded shadow-lg shadow-gray-500/50"
+              type="text"
+            />
+          </div>
+          <div class="mb-4">
+            <h2 class="font-medium">Percentage Amount:</h2>
+            <h2 class="text-center my-12 text-4xl font-semibold">
+              <span id="display-amount">00</span> TK
+            </h2>
+          </div>
+          <button
+            id="apply"
+            class="bg-cyan-800 text-white py-2 px-4 w-11/12 font-medium rounded shadow-lg shadow-gray-500/50"
+          >
+            Apply
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
